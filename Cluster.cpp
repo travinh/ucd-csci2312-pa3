@@ -540,5 +540,29 @@ namespace Clustering
 }
 
 
+/*
+ Cluster(const cluster &cluster)
+ _dimen(clus._dimen)
+ _size(0)
+__ points(nullptr)
+ __id(__idgen++)
+ centroid(__dimens,*this)
+ {if cluster.__point!=null)
+ {asserT(cluster._size(
+ _cpy(cluster._ponit)s)
+ }
+ assert(_size==clus.__size)
+ centroild.compute()
+
+ //Compute function
+ if(_c._pointnull)
+ assert(_c._size==0);
+ toInfinity();
+ return;
+
+ Lnode curr
+ */
+
+
 
 
