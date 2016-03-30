@@ -4,6 +4,7 @@
 
 #include <cassert>
 
+
 #include "KMeans.h"
 #include "Exceptions.h"
 
@@ -14,10 +15,12 @@ namespace Clustering {
         if (k == 0)
             throw ZeroClustersEx();
 
-        std::ifstream file(filename);
+        std::ifstream file;
 
-        if (!file)
+
+        if ( !file || filename=="")
             throw DataFileOpenEx(filename);
+
 
         __maxIter = maxIter;
         __numNonempty = 1;
